@@ -18,7 +18,7 @@ import ServiceCard from "@/components/ServiceCard";
 import CTASection from "@/components/CTASection";
 
 export default function HomePage() {
-  const featured = SERVICES.filter((s) => s.featured);
+  const featured = SERVICES;
 
   return (
     <>
@@ -26,97 +26,71 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-gradient-to-b from-shell-100 via-shell-50 to-shell-50 pt-28 pb-12 sm:pt-36">
         <div className="absolute -right-32 top-20 h-[28rem] w-[28rem] rounded-full bg-sage/15 blur-3xl" />
         <div className="absolute -left-24 top-52 h-80 w-80 rounded-full bg-coral/10 blur-3xl" />
-        <div className="container-x relative grid items-center gap-12 lg:grid-cols-12">
-          <div className="lg:col-span-6">
-            <Reveal>
-              <p className="eyebrow">
-                <span className="h-px w-8 bg-sage" />
-                EMDR Certified Therapist · Mansfield, TX
-              </p>
-            </Reveal>
-            <Reveal delay={80}>
-              <h1 className="mt-6 font-serif text-[2.6rem] font-semibold leading-[1.05] text-ocean-deep sm:text-6xl lg:text-[4rem]">
-                Shift from{" "}
-                <span className="relative whitespace-nowrap text-coral-dark">
-                  surviving
-                  <svg
-                    className="absolute -bottom-2 left-0 w-full"
-                    viewBox="0 0 200 12"
-                    fill="none"
-                    aria-hidden="true"
-                  >
-                    <path
-                      d="M2 8c40-6 158-6 196 0"
-                      stroke="currentColor"
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      className="text-coral/50"
-                    />
-                  </svg>
-                </span>{" "}
-                to thriving.
-              </h1>
-            </Reveal>
-            <Reveal delay={160}>
-              <p className="mt-7 max-w-xl text-lg leading-relaxed text-ink/75">
-                Specialized EMDR, trauma, and anxiety therapy that helps your mind,
-                heart, and body finally heal. Compassionate, evidence-based care
-                with {BUSINESS.title} — in person in Mansfield or online across
-                Texas.
-              </p>
-            </Reveal>
-            <Reveal delay={240}>
-              <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-                <Link href="/contact" className="btn-coral group">
-                  Book a Consultation
-                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </Link>
-                <Link href="/services/emdr-therapy" className="btn-outline">
-                  Explore EMDR Therapy
-                </Link>
-              </div>
-            </Reveal>
-            <Reveal delay={320}>
-              <dl className="mt-12 grid max-w-lg grid-cols-3 gap-6 border-t border-shell-200 pt-8">
-                {[
-                  { n: "16+", l: "Years of practice" },
-                  { n: "EMDR", l: "Certified Therapist™" },
-                  { n: "100%", l: "Trauma-informed care" },
-                ].map((s) => (
-                  <div key={s.l}>
-                    <dt className="font-serif text-3xl font-semibold text-ocean">
-                      {s.n}
-                    </dt>
-                    <dd className="mt-1 text-xs leading-snug text-ink/60">{s.l}</dd>
-                  </div>
-                ))}
-              </dl>
-            </Reveal>
-          </div>
-
-          <div className="lg:col-span-6">
-            <Reveal delay={200} className="relative mx-auto max-w-md lg:max-w-none">
-              <div className="absolute -inset-4 -z-10 rounded-[2.75rem] bg-gradient-to-br from-sage/30 to-coral/20 blur-2xl" />
-              <div className="overflow-hidden rounded-[2.5rem] border-8 border-white shadow-2xl shadow-ocean/20">
-                <Image
-                  src="/images/calm6.jpg"
-                  alt="A wooden path leading through coastal dunes to a calm ocean — the journey from surviving to thriving"
-                  width={900}
-                  height={1100}
-                  className="aspect-[4/5] w-full object-cover"
-                  priority
-                />
-              </div>
-              <div className="absolute -bottom-6 -left-6 animate-drift rounded-3xl border border-shell-200 bg-white/95 px-5 py-4 shadow-xl backdrop-blur sm:-left-10">
-                <p className="font-serif text-lg font-semibold text-ocean-deep">
-                  Tiffany Mylett, LCSW-S
-                </p>
-                <p className="text-xs font-medium uppercase tracking-widest text-sage-dark">
-                  EMDR Certified Therapist™
-                </p>
-              </div>
-            </Reveal>
-          </div>
+        <div className="container-x relative mx-auto max-w-4xl text-center">
+          <Reveal>
+            <p className="eyebrow justify-center">
+              <span className="h-px w-8 bg-sage" />
+              EMDR Certified Therapist · Mansfield, TX
+              <span className="h-px w-8 bg-sage" />
+            </p>
+          </Reveal>
+          <Reveal delay={80}>
+            <h1 className="mt-6 font-serif text-[2.8rem] font-semibold leading-[1.04] text-ocean-deep sm:text-6xl lg:text-[4.5rem]">
+              Shift from{" "}
+              <span className="relative whitespace-nowrap text-coral-dark">
+                surviving
+                <svg
+                  className="absolute -bottom-2 left-0 w-full"
+                  viewBox="0 0 200 12"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M2 8c40-6 158-6 196 0"
+                    stroke="currentColor"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    className="text-coral/50"
+                  />
+                </svg>
+              </span>{" "}
+              to thriving.
+            </h1>
+          </Reveal>
+          <Reveal delay={160}>
+            <p className="mx-auto mt-7 max-w-2xl text-lg leading-relaxed text-ink/75">
+              Specialized EMDR, trauma, and anxiety therapy that helps your mind,
+              heart, and body finally heal. Compassionate, evidence-based care with{" "}
+              {BUSINESS.title} — in person in Mansfield or online across Texas.
+            </p>
+          </Reveal>
+          <Reveal delay={240}>
+            <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
+              <Link href="/contact" className="btn-coral group">
+                Book a Consultation
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </Link>
+              <Link href="/services" className="btn-outline">
+                Explore Services
+              </Link>
+            </div>
+          </Reveal>
+          <Reveal delay={320}>
+            <dl className="mx-auto mt-12 grid max-w-xl grid-cols-3 gap-6 border-t border-shell-200 pt-8">
+              {[
+                { n: "16+", l: "Years of practice" },
+                { n: "EMDR", l: "Certified Therapist™" },
+                { n: "100%", l: "Trauma-informed care" },
+              ].map((s) => (
+                <div key={s.l}>
+                  <dt className="font-serif text-3xl font-semibold text-ocean sm:text-4xl">
+                    {s.n}
+                  </dt>
+                  <dd className="mt-1 text-xs leading-snug text-ink/60">{s.l}</dd>
+                </div>
+              ))}
+            </dl>
+          </Reveal>
         </div>
       </section>
 
@@ -235,8 +209,8 @@ export default function HomePage() {
           </div>
 
           <Reveal className="mt-12 text-center">
-            <Link href="/services" className="btn-primary group">
-              View all services
+            <Link href="/contact" className="btn-primary group">
+              Book a Consultation
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
           </Reveal>
