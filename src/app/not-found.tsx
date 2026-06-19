@@ -9,7 +9,7 @@ export default function NotFound() {
           This page drifted away
         </h1>
         <p className="mx-auto mt-3 max-w-md text-ink/70">
-          The page you&apos;re looking for can&apos;t be found — but the path
+          The page you&apos;re looking for can&apos;t be found, but the path
           forward is still here.
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">

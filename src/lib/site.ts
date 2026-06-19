@@ -81,7 +81,7 @@ export const SERVICES: Service[] = [
     eyebrow: "Evidence-Based Trauma Treatment",
     headline: "EMDR Therapy that helps your brain finish healing",
     intro:
-      "Eye Movement Desensitization and Reprocessing (EMDR) is one of the most researched, effective treatments for trauma. As an EMDR Certified Therapist™ in Mansfield, Tiffany helps you reprocess painful experiences so they lose their grip — without having to relive every detail.",
+      "Eye Movement Desensitization and Reprocessing (EMDR) is one of the most researched, effective treatments for trauma. As an EMDR Certified Therapist™ in Mansfield, Tiffany helps you reprocess painful experiences so they lose their grip, without having to relive every detail.",
     forYou: [
       "Trauma & PTSD",
       "Anxiety & panic",
@@ -95,13 +95,13 @@ export const SERVICES: Service[] = [
         heading: "What is EMDR?",
         paragraphs: [
           "EMDR is an evidence-based therapy supported by more than 26 randomized controlled studies. The VA/DoD Clinical Practice Guideline names it one of only three trauma-focused psychotherapies with the strongest evidence from clinical trials.",
-          "It works on a simple premise drawn from the Adaptive Information Processing model: when something overwhelming happens, the memory can get \"stuck\" — frozen with the original images, beliefs, emotions, and body sensations. EMDR helps your brain reprocess that memory so it can finally file it away as something that happened, rather than something that keeps happening.",
+          "It works on a simple premise drawn from the Adaptive Information Processing model: when something overwhelming happens, the memory can get \"stuck\", frozen with the original images, beliefs, emotions, and body sensations. EMDR helps your brain reprocess that memory so it can finally file it away as something that happened, rather than something that keeps happening.",
         ],
       },
       {
         heading: "How does it actually work?",
         paragraphs: [
-          "During reprocessing, you briefly bring up a target memory while following a form of bilateral stimulation — typically guided eye movements, tapping, or tones. This dual attention lets the brain do what it does naturally during REM sleep: link the disturbing material to more adaptive information already stored in your mind.",
+          "During reprocessing, you briefly bring up a target memory while following a form of bilateral stimulation, typically guided eye movements, tapping, or tones. This dual attention lets the brain do what it does naturally during REM sleep: link the disturbing material to more adaptive information already stored in your mind.",
           "Over time, the memory becomes less vivid and less distressing. The negative belief it created (\"I'm not safe,\" \"It was my fault,\" \"I'm not enough\") softens, and a healthier, truer belief takes root.",
         ],
       },
@@ -137,7 +137,7 @@ export const SERVICES: Service[] = [
     eyebrow: "Trauma-Informed Care",
     headline: "Heal the root, not just the symptoms",
     intro:
-      "Trauma isn't only the event — it's what stays behind in your nervous system afterward. Renewed Mindset Therapy offers specialized, trauma-informed care in Mansfield that addresses both the symptoms you feel today and the root cause underneath them.",
+      "Trauma isn't only the event, it's what stays behind in your nervous system afterward. Renewed Mindset Therapy offers specialized, trauma-informed care in Mansfield that addresses both the symptoms you feel today and the root cause underneath them.",
     forYou: [
       "Post-Traumatic Stress (PTSD)",
       "Childhood & developmental trauma",
@@ -150,14 +150,14 @@ export const SERVICES: Service[] = [
       {
         heading: "A safe place to put it down",
         paragraphs: [
-          "Tiffany's first priority is always safety — emotional and physical. Before any deep processing begins, you'll build skills and resources together so you feel grounded and in control. Healing trauma should never mean being re-traumatized.",
-          "As a Certified Christian Trauma Care Provider, Tiffany can integrate faith into your care when that's meaningful to you — and she warmly respects clients of every spiritual background.",
+          "Tiffany's first priority is always safety, emotional and physical. Before any deep processing begins, you'll build skills and resources together so you feel grounded and in control. Healing trauma should never mean being re-traumatized.",
+          "As a Certified Christian Trauma Care Provider, Tiffany can integrate faith into your care when that's meaningful to you, and she warmly respects clients of every spiritual background.",
         ],
       },
       {
         heading: "Why understanding your nervous system matters",
         paragraphs: [
-          "Many trauma responses — hypervigilance, numbness, panic, the inability to \"just relax\" — make complete sense once you understand the neurophysiology behind them. Tiffany helps you understand what your body is doing and why, so you can stop blaming yourself and start working with your nervous system instead of against it.",
+          "Many trauma responses (hypervigilance, numbness, panic, the inability to \"just relax\") make complete sense once you understand the neurophysiology behind them. Tiffany helps you understand what your body is doing and why, so you can stop blaming yourself and start working with your nervous system instead of against it.",
           "Using EMDR alongside somatic and HeartMath® biofeedback approaches, she helps you discharge what's stuck and restore a felt sense of calm.",
         ],
       },
@@ -189,14 +189,14 @@ export const SERVICES: Service[] = [
       {
         heading: "More than coping skills",
         paragraphs: [
-          "Coping skills matter — and you'll learn plenty of them. But Tiffany also helps you reach the root of the anxiety so relief doesn't depend on white-knuckling every situation. Often, today's anxiety is connected to older experiences your brain never fully processed; EMDR can resolve those at the source.",
+          "Coping skills matter, and you'll learn plenty of them. But Tiffany also helps you reach the root of the anxiety so relief doesn't depend on white-knuckling every situation. Often, today's anxiety is connected to older experiences your brain never fully processed; EMDR can resolve those at the source.",
           "Sessions combine practical tools (CBT, Rational Emotive Behavior Therapy, motivational interviewing) with deeper reprocessing work, tailored to what you actually need.",
         ],
       },
       {
         heading: "Training your body toward calm",
         paragraphs: [
-          "As a HeartMath® Certified Practitioner, Tiffany uses heart-rate-variability and coherence biofeedback to help you regulate your nervous system in real time. You'll learn to shift out of fight-or-flight on purpose — a skill you keep for life.",
+          "As a HeartMath® Certified Practitioner, Tiffany uses heart-rate-variability and coherence biofeedback to help you regulate your nervous system in real time. You'll learn to shift out of fight-or-flight on purpose, a skill you keep for life.",
         ],
       },
     ],
@@ -227,7 +227,7 @@ export const SERVICES: Service[] = [
       {
         heading: "A plan that's truly yours",
         paragraphs: [
-          "No two people walk in with the same story, so no two treatment plans look alike. Tiffany draws from a range of evidence-based modalities — EMDR, CBT, Rational Emotive Behavior Therapy, somatic and interpersonal approaches — and weaves them together around your unique situation and goals.",
+          "No two people walk in with the same story, so no two treatment plans look alike. Tiffany draws from a range of evidence-based modalities (EMDR, CBT, Rational Emotive Behavior Therapy, somatic and interpersonal approaches) and weaves them together around your unique situation and goals.",
           "Her aim is refreshingly direct: to help you get what you came for and, ultimately, to put herself out of business in your life.",
         ],
       },
@@ -256,7 +256,7 @@ export const SERVICES: Service[] = [
     eyebrow: "Faith & Clinical Care Together",
     headline: "Where clinical excellence meets your faith",
     intro:
-      "For clients who want their faith woven into the healing process, Tiffany offers Christian counseling that is both clinically rigorous and spiritually grounded — never one at the expense of the other.",
+      "For clients who want their faith woven into the healing process, Tiffany offers Christian counseling that is both clinically rigorous and spiritually grounded, never one at the expense of the other.",
     forYou: [
       "Trauma & spiritual struggles",
       "Anxiety & faith questions",
@@ -270,7 +270,7 @@ export const SERVICES: Service[] = [
         heading: "Trained to hold both",
         paragraphs: [
           "As a Certified Christian Trauma Care Provider and EMDR Certified Therapist™, Tiffany is equipped to honor your faith while delivering proven, evidence-based treatment. Scripture and prayer can be part of your sessions when you want them to be.",
-          "And if you don't share that faith, that's completely welcome too — these sessions are by invitation, never imposition. Tiffany respects clients of all spiritual backgrounds.",
+          "And if you don't share that faith, that's completely welcome too, these sessions are by invitation, never imposition. Tiffany respects clients of all spiritual backgrounds.",
         ],
       },
     ],
@@ -341,7 +341,7 @@ export const FAQS = [
   },
   {
     q: "How often will we meet, and for how long?",
-    a: "Therapy typically begins weekly and moves to biweekly as you make progress. The overall length depends on your goals — the aim is always to help you reach them and move forward, not to keep you in therapy indefinitely.",
+    a: "Therapy typically begins weekly and moves to biweekly as you make progress. The overall length depends on your goals, the aim is always to help you reach them and move forward, not to keep you in therapy indefinitely.",
   },
   {
     q: "Why is there a charge for late cancellations?",
@@ -379,7 +379,7 @@ export const TOOLKIT = [
   {
     title: "Set Boundaries, Find Peace",
     author: "Nedra Glover Tawwab, LCSW",
-    note: "A warm, practical introduction to setting healthy boundaries with family, friends, colleagues — and yourself.",
+    note: "A warm, practical introduction to setting healthy boundaries with family, friends, colleagues, and yourself.",
   },
   {
     title: "The Set Boundaries Workbook",
@@ -394,6 +394,6 @@ export const TOOLKIT = [
   {
     title: "Tapping In",
     author: "Laurel Parnell, PhD",
-    note: "A step-by-step guide to activating your healing resources through bilateral stimulation — great for EMDR clients.",
+    note: "A step-by-step guide to activating your healing resources through bilateral stimulation, great for EMDR clients.",
   },
 ];

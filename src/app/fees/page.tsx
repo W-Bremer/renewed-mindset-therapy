@@ -41,7 +41,7 @@ export default function FeesPage() {
               Fees & insurance
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-ink/75">
-              Clear, upfront pricing so you can make the best decision for you —
+              Clear, upfront pricing so you can make the best decision for you, 
               with no surprises.
             </p>
           </Reveal>
@@ -99,7 +99,7 @@ export default function FeesPage() {
                 </p>
                 <p>
                   Staying out-of-network keeps your treatment private and driven by
-                  what <em>you</em> need — not what a plan will authorize.
+                  what <em>you</em> need, not what a plan will authorize.
                 </p>
               </div>
             </Reveal>

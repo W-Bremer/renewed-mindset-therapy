@@ -60,7 +60,7 @@ export function localBusinessSchema() {
   };
 }
 
-// Person node for Tiffany Mylett — supports name/E-A-T queries.
+// Person node for Tiffany Mylett, supports name/E-A-T queries.
 export function personSchema() {
   return {
     "@context": "https://schema.org",

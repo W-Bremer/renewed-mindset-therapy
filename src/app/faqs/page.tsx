@@ -38,7 +38,7 @@ export default function FAQPage() {
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-ink/75">
               A few of the things people most often want to know before reaching
-              out. Don&apos;t see your question? Get in touch — Tiffany is happy to
+              out. Don&apos;t see your question? Get in touch, Tiffany is happy to
               help.
             </p>
           </Reveal>

@@ -6,7 +6,7 @@ import CTASection from "@/components/CTASection";
 import { JsonLd, breadcrumbSchema } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Therapy Services in Mansfield, TX — EMDR, Trauma & Anxiety",
+  title: "Therapy Services in Mansfield, TX: EMDR, Trauma & Anxiety",
   description:
     "Explore therapy services at Renewed Mindset Therapy in Mansfield, TX: EMDR, trauma & PTSD, anxiety & panic, individual therapy, faith-based counseling, and EMDR consultation.",
   alternates: { canonical: "/services" },

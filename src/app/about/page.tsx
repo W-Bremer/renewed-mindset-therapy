@@ -13,7 +13,7 @@ import CTASection from "@/components/CTASection";
 import { JsonLd, breadcrumbSchema } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "About Tiffany Mylett, LCSW-S — EMDR Therapist in Mansfield, TX",
+  title: "About Tiffany Mylett, LCSW-S: EMDR Therapist in Mansfield, TX",
   description:
     "Meet Tiffany Mylett, LCSW-S, an EMDR Certified Therapist and Clinical Supervisor in Mansfield, TX. Learn about her training, approach, and the care she offers.",
   alternates: { canonical: "/about" },
@@ -45,7 +45,7 @@ export default function AboutPage() {
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/75">
                 &ldquo;I am passionate about walking alongside the clients I work
                 with as they process through current life struggles.&rdquo; My job
-                is to help you feel safe, secure, and seen — and to help your mind,
+                is to help you feel safe, secure, and seen, and to help your mind,
                 heart, and body heal.
               </p>
               <p className="mt-4 text-sm font-semibold uppercase tracking-widest text-sage-dark">
@@ -59,7 +59,7 @@ export default function AboutPage() {
               <div className="overflow-hidden rounded-[2.25rem] border-8 border-white shadow-2xl shadow-ocean/15">
                 <Image
                   src="/images/calm4.jpg"
-                  alt="Sunrise over a calm ocean shore — renewal and hope at Renewed Mindset Therapy"
+                  alt="Sunrise over a calm ocean shore, renewal and hope at Renewed Mindset Therapy"
                   width={900}
                   height={1000}
                   className="aspect-[4/5] w-full object-cover"
@@ -98,7 +98,7 @@ export default function AboutPage() {
               <p>
                 I believe therapy is a collaborative process. Together, we&apos;ll
                 create a safe and calm environment where you can do the real work of
-                healing — never rushed, never judged. I care about more than just
+                healing, never rushed, never judged. I care about more than just
                 managing symptoms; I want to help you understand the
                 neurophysiology underneath them and get to the core issue so change
                 actually lasts.
@@ -114,7 +114,7 @@ export default function AboutPage() {
               </p>
               <p>
                 As a Certified Christian Trauma Care Provider, I can incorporate
-                faith into our work when that&apos;s meaningful to you — and I warmly
+                faith into our work when that&apos;s meaningful to you, and I warmly
                 respect and welcome clients of every spiritual background.
               </p>
               <p className="border-l-4 border-coral/50 pl-5 font-serif text-xl italic text-ocean-deep">
@@ -226,7 +226,7 @@ export default function AboutPage() {
 
       <CTASection
         title="Let's take the first step together"
-        text="If anything here resonated, I'd be honored to hear from you. Reaching out is the bravest part — and you don't have to have the words figured out."
+        text="If anything here resonated, I'd be honored to hear from you. Reaching out is the bravest part, and you don't have to have the words figured out."
       />
     </>
   );

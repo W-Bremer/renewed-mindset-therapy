@@ -61,7 +61,7 @@ export default function HomePage() {
             <p className="mx-auto mt-7 max-w-2xl text-lg leading-relaxed text-ink/75">
               Specialized EMDR, trauma, and anxiety therapy that helps your mind,
               heart, and body finally heal. Compassionate, evidence-based care with{" "}
-              {BUSINESS.title} — in person in Mansfield or online across Texas.
+              {BUSINESS.title}, in person in Mansfield or online across Texas.
             </p>
           </Reveal>
           <Reveal delay={240}>
@@ -130,7 +130,7 @@ export default function HomePage() {
                 <span className="font-semibold text-ocean">
                   mind, heart, and body
                 </span>{" "}
-                — addressing both the symptoms you feel today and the root cause
+, addressing both the symptoms you feel today and the root cause
                 underneath. You won&apos;t just learn to cope. You&apos;ll heal.
               </p>
             </div>
@@ -157,7 +157,7 @@ export default function HomePage() {
               {
                 icon: Sparkles,
                 t: "Evidence-based",
-                d: "EMDR, CBT, somatic work, and HeartMath® biofeedback — proven, not trendy.",
+                d: "EMDR, CBT, somatic work, and HeartMath® biofeedback, proven, not trendy.",
               },
               {
                 icon: HeartHandshake,
@@ -195,7 +195,7 @@ export default function HomePage() {
               Specialized therapy services
             </h2>
             <p className="mt-5 text-lg text-ink/70">
-              Focused, evidence-based care for the things weighing on you most —
+              Focused, evidence-based care for the things weighing on you most, 
               all offered in Mansfield and online across Texas.
             </p>
           </Reveal>
@@ -243,7 +243,7 @@ export default function HomePage() {
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-ink/75">
                 When something overwhelming happens, the memory can get
-                &quot;stuck&quot; — frozen with its original images, beliefs, and
+                &quot;stuck&quot;, frozen with its original images, beliefs, and
                 body sensations. EMDR helps your brain reprocess it, so it becomes
                 something that <em>happened</em> rather than something that keeps
                 happening.
@@ -282,7 +282,7 @@ export default function HomePage() {
               by getting to the core issue.&rdquo;
             </p>
             <p className="mt-6 text-sm font-semibold uppercase tracking-widest text-sage-light">
-              — Tiffany Mylett, LCSW-S
+              Tiffany Mylett, LCSW-S
             </p>
           </Reveal>
         </div>
@@ -296,7 +296,7 @@ export default function HomePage() {
               <div className="overflow-hidden rounded-[2.25rem] border-8 border-white shadow-2xl shadow-ocean/15">
                 <Image
                   src="/images/about.jpg"
-                  alt="Sunrise over the ocean — renewal and hope at Renewed Mindset Therapy"
+                  alt="Sunrise over the ocean, renewal and hope at Renewed Mindset Therapy"
                   width={700}
                   height={900}
                   className="aspect-[4/5] w-full object-cover"
@@ -321,7 +321,7 @@ export default function HomePage() {
               Tiffany Mylett is a Licensed Clinical Social Worker &amp; Supervisor
               who has spent her career walking alongside people as they process
               life&apos;s hardest moments. She blends deep clinical training with
-              genuine warmth — creating a space where you feel understood from the
+              genuine warmth, creating a space where you feel understood from the
               very first session.
             </p>
             <div className="mt-8 grid gap-3 sm:grid-cols-2">
@@ -349,7 +349,7 @@ export default function HomePage() {
               <MapPin className="h-4 w-4 text-coral" /> Serving Mansfield & DFW
             </span>
             <h2 className="mt-6 font-serif text-3xl font-semibold text-ocean-deep sm:text-4xl">
-              Therapy in Mansfield, Texas — and online statewide
+              Therapy in Mansfield, Texas, and online statewide
             </h2>
             <p className="mt-5 text-lg text-ink/70">
               Renewed Mindset Therapy welcomes clients from Mansfield and across the

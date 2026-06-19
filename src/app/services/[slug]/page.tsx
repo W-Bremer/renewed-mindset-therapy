@@ -107,7 +107,7 @@ export default async function ServicePage({
             <div className="overflow-hidden rounded-[2.25rem] border-8 border-white shadow-2xl shadow-ocean/15">
               <Image
                 src={service.image}
-                alt={`${service.shortName} in Mansfield, TX — Renewed Mindset Therapy`}
+                alt={`${service.shortName} in Mansfield, TX, Renewed Mindset Therapy`}
                 width={900}
                 height={760}
                 className="aspect-[6/5] w-full object-cover"

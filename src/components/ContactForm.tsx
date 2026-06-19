@@ -36,7 +36,7 @@ export default function ContactForm() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const subject = encodeURIComponent(
-      `New inquiry from ${form.name} — ${form.service}`
+      `New inquiry from ${form.name}, ${form.service}`
     );
     const body = encodeURIComponent(
       `Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\nInterested in: ${form.service}\n\nMessage:\n${form.message}`

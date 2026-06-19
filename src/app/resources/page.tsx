@@ -8,12 +8,12 @@ import { JsonLd, breadcrumbSchema } from "@/lib/jsonld";
 export const metadata: Metadata = {
   title: { absolute: "Therapy Toolkit & Resources | Renewed Mindset Therapy" },
   description:
-    "A curated therapy toolkit from Tiffany Mylett, LCSW-S — book recommendations on boundaries, EMDR, ADHD, and emotional regulation, plus crisis resources.",
+    "A curated therapy toolkit from Tiffany Mylett, LCSW-S, book recommendations on boundaries, EMDR, ADHD, and emotional regulation, plus crisis resources.",
   alternates: { canonical: "/resources" },
 };
 
 const crisis = [
-  { name: "988 Suicide & Crisis Lifeline", detail: "Call or text 988 — 24/7" },
+  { name: "988 Suicide & Crisis Lifeline", detail: "Call or text 988, 24/7" },
   { name: "Crisis Text Line", detail: "Text HOME to 741741" },
   { name: "Emergency", detail: "Call 911 or go to your nearest ER" },
 ];
@@ -40,7 +40,7 @@ export default function ResourcesPage() {
               Resources for the journey
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-ink/75">
-              A few of the books Tiffany returns to again and again — for clients
+              A few of the books Tiffany returns to again and again, for clients
               and for herself. Great companions to the work we do together.
             </p>
           </Reveal>
@@ -86,7 +86,7 @@ export default function ResourcesPage() {
                 If you need help right now
               </h2>
               <p className="mt-3 max-w-2xl text-shell-100/80">
-                Therapy is for ongoing growth — but in a crisis, please reach out to
+                Therapy is for ongoing growth, but in a crisis, please reach out to
                 immediate support. You deserve help now.
               </p>
               <div className="mt-7 grid gap-4 sm:grid-cols-3">

@@ -4,7 +4,7 @@ type WaveDividerProps = {
   flip?: boolean;
 };
 
-// Organic, hand-tuned wave — recurring motif across the site.
+// Organic, hand-tuned wave, recurring motif across the site.
 export default function WaveDivider({
   className = "",
   fill = "#fbf8f3",

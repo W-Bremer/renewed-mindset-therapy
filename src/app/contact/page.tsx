@@ -41,7 +41,7 @@ export default function ContactPage() {
               Let&apos;s begin
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-ink/75">
-              Reaching out is the hardest part — and the bravest. Send a message or
+              Reaching out is the hardest part, and the bravest. Send a message or
               call, and Tiffany will personally get back to you to talk about next
               steps.
             </p>
@@ -145,7 +145,7 @@ export default function ContactPage() {
                 </div>
                 <p className="mt-4 text-sm leading-relaxed text-shell-100/80">
                   Can&apos;t make it to Mansfield? Secure, HIPAA-compliant telehealth
-                  is available to any resident of Texas — same expert care, from the
+                  is available to any resident of Texas, same expert care, from the
                   comfort of home.
                 </p>
               </div>
