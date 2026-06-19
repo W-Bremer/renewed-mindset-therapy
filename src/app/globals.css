@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-fraunces: "Fraunces", Georgia, serif;
+    --font-figtree: "Figtree", system-ui, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-shell-50 text-ink antialiased;
+    font-feature-settings: "ss01", "ss02";
+  }
+
+  ::selection {
+    @apply bg-coral/30 text-ocean-deep;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif tracking-tight text-balance;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-12;
+  }
+
+  .container-prose {
+    @apply mx-auto w-full max-w-3xl px-5 sm:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold tracking-wide transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-ocean;
+  }
+
+  .btn-primary {
+    @apply btn bg-ocean text-shell-50 shadow-lg shadow-ocean/20 hover:bg-ocean-deep hover:-translate-y-0.5 hover:shadow-xl;
+  }
+
+  .btn-coral {
+    @apply btn bg-coral text-white shadow-lg shadow-coral/30 hover:bg-coral-dark hover:-translate-y-0.5;
+  }
+
+  .btn-outline {
+    @apply btn border border-ocean/30 bg-transparent text-ocean hover:border-ocean hover:bg-ocean/5;
+  }
+
+  .btn-ghost-light {
+    @apply btn border border-white/40 bg-white/10 text-white backdrop-blur hover:bg-white/20;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-sage-dark;
+  }
+
+  .card-soft {
+    @apply rounded-4xl border border-shell-200/70 bg-white/70 shadow-sm backdrop-blur-sm transition-all duration-300;
+  }
+
+  .link-underline {
+    @apply relative inline-flex items-center gap-1.5 font-semibold text-ocean transition-colors hover:text-coral-dark;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  /* Reveal-on-scroll: starts hidden, .is-visible toggled by IntersectionObserver */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+    .animate-drift,
+    .animate-wave {
+      animation: none;
+    }
+  }
+}
