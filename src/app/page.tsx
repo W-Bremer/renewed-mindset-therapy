@@ -99,20 +99,20 @@ export default function HomePage() {
               <div className="absolute -inset-4 -z-10 rounded-[2.75rem] bg-gradient-to-br from-sage/30 to-coral/20 blur-2xl" />
               <div className="overflow-hidden rounded-[2.5rem] border-8 border-white shadow-2xl shadow-ocean/20">
                 <Image
-                  src="/images/headshot.jpg"
-                  alt="Tiffany Mylett, LCSW-S, EMDR Certified Therapist in Mansfield, TX"
+                  src="/images/calm6.jpg"
+                  alt="A wooden path leading through coastal dunes to a calm ocean — the journey from surviving to thriving"
                   width={900}
-                  height={900}
-                  className="aspect-square w-full object-cover"
+                  height={1100}
+                  className="aspect-[4/5] w-full object-cover"
                   priority
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 animate-drift rounded-3xl border border-shell-200 bg-white/95 px-5 py-4 shadow-xl backdrop-blur sm:-left-10">
                 <p className="font-serif text-lg font-semibold text-ocean-deep">
-                  Tiffany Mylett
+                  Tiffany Mylett, LCSW-S
                 </p>
                 <p className="text-xs font-medium uppercase tracking-widest text-sage-dark">
-                  LCSW-S · EMDR Certified
+                  EMDR Certified Therapist™
                 </p>
               </div>
             </Reveal>

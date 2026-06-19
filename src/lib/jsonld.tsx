@@ -16,7 +16,7 @@ export function localBusinessSchema() {
     telephone: BUSINESS.phone,
     faxNumber: BUSINESS.fax,
     email: BUSINESS.email,
-    image: `${SITE_URL}/images/headshot.jpg`,
+    image: `${SITE_URL}/images/calm6.jpg`,
     logo: `${SITE_URL}/images/logo.png`,
     priceRange: "$$",
     medicalSpecialty: "Psychiatric",
@@ -69,7 +69,6 @@ export function personSchema() {
     name: "Tiffany Mylett",
     honorificSuffix: "LCSW-S",
     jobTitle: "Licensed Clinical Social Worker & EMDR Certified Therapist",
-    image: `${SITE_URL}/images/headshot.jpg`,
     url: `${SITE_URL}/about`,
     worksFor: { "@id": businessId },
     alumniOf: [

@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     description:
       "Certified EMDR, trauma, and anxiety therapy in Mansfield, TX with Tiffany Mylett, LCSW-S.",
     images: [
-      { url: "/images/headshot.jpg", width: 1200, height: 1200, alt: BUSINESS.title },
+      { url: "/images/calm6.jpg", width: 1200, height: 800, alt: "Renewed Mindset Therapy — EMDR & trauma therapy in Mansfield, TX" },
     ],
   },
   twitter: {
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: "EMDR & Trauma Therapy in Mansfield, TX | Renewed Mindset Therapy",
     description:
       "Certified EMDR, trauma, and anxiety therapy in Mansfield, TX with Tiffany Mylett, LCSW-S.",
-    images: ["/images/headshot.jpg"],
+    images: ["/images/calm6.jpg"],
   },
   robots: {
     index: true,

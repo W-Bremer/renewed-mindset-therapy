@@ -58,12 +58,28 @@ export default function AboutPage() {
               <div className="absolute -inset-4 -z-10 rounded-[2.5rem] bg-gradient-to-br from-sage/25 to-coral/15 blur-2xl" />
               <div className="overflow-hidden rounded-[2.25rem] border-8 border-white shadow-2xl shadow-ocean/15">
                 <Image
-                  src="/images/headshot.jpg"
-                  alt="Tiffany Mylett, LCSW-S, EMDR Certified Therapist in Mansfield, TX"
-                  width={800}
-                  height={800}
-                  className="aspect-square w-full object-cover"
+                  src="/images/calm4.jpg"
+                  alt="Sunrise over a calm ocean shore — renewal and hope at Renewed Mindset Therapy"
+                  width={900}
+                  height={1000}
+                  className="aspect-[4/5] w-full object-cover"
                   priority
+                />
+              </div>
+              <div className="mt-8 flex items-center justify-center gap-6">
+                <Image
+                  src="/images/badge-emdria.png"
+                  alt="EMDRIA Certified EMDR Therapist badge"
+                  width={120}
+                  height={120}
+                  className="h-20 w-auto object-contain"
+                />
+                <Image
+                  src="/images/badge-heartmath.png"
+                  alt="HeartMath Certified Practitioner badge"
+                  width={120}
+                  height={120}
+                  className="h-20 w-auto object-contain"
                 />
               </div>
             </div>

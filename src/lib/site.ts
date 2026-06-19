@@ -130,7 +130,7 @@ export const SERVICES: Service[] = [
     name: "Trauma Therapy in Mansfield, TX",
     shortName: "Trauma Therapy",
     navName: "Trauma & PTSD",
-    image: "/images/emdr.jpg",
+    image: "/images/calm5.jpg",
     metaTitle: "Trauma & PTSD Therapy in Mansfield, TX | Renewed Mindset Therapy",
     metaDescription:
       "Trauma-informed therapy in Mansfield, TX for PTSD, abuse, accidents, and overwhelming life events. Work with EMDR Certified therapist Tiffany Mylett, LCSW-S.",
@@ -169,7 +169,7 @@ export const SERVICES: Service[] = [
     name: "Anxiety & Panic Therapy in Mansfield, TX",
     shortName: "Anxiety Therapy",
     navName: "Anxiety & Panic",
-    image: "/images/about.jpg",
+    image: "/images/calm1.jpg",
     metaTitle: "Anxiety & Panic Disorder Therapy in Mansfield, TX | Renewed Mindset",
     metaDescription:
       "Therapy for anxiety, panic attacks, and chronic stress in Mansfield, TX. Tiffany Mylett, LCSW-S blends EMDR, CBT, and HeartMath® biofeedback to help you find calm.",
@@ -249,7 +249,7 @@ export const SERVICES: Service[] = [
     name: "Faith-Integrated Christian Counseling in Mansfield, TX",
     shortName: "Christian Counseling",
     navName: "Faith-Based Counseling",
-    image: "/images/consultation.jpg",
+    image: "/images/about.jpg",
     metaTitle: "Christian Counseling & Faith-Based Therapy in Mansfield, TX",
     metaDescription:
       "Faith-integrated Christian counseling in Mansfield, TX with Tiffany Mylett, LCSW-S, a Certified Christian Trauma Care Provider. Clinically sound, spiritually grounded.",
