@@ -58,11 +58,11 @@ export default function AboutPage() {
               <div className="absolute -inset-4 -z-10 rounded-[2.5rem] bg-gradient-to-br from-sage/25 to-coral/15 blur-2xl" />
               <div className="overflow-hidden rounded-[2.25rem] border-8 border-white shadow-2xl shadow-ocean/15">
                 <Image
-                  src="/images/calm4.jpg"
-                  alt="Sunrise over a calm ocean shore, renewal and hope at Renewed Mindset Therapy"
+                  src="/images/headshot.jpg"
+                  alt="Tiffany Mylett, LCSW-S, EMDR Certified Therapist in Mansfield, TX"
                   width={900}
-                  height={1000}
-                  className="aspect-[4/5] w-full object-cover"
+                  height={900}
+                  className="aspect-square w-full object-cover"
                   priority
                 />
               </div>
